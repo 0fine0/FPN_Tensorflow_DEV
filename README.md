@@ -1,17 +1,7 @@
 # Feature Pyramid Networks for Object Detection (Development Version) 
 
-<<<<<<< HEAD
 ## Abstract     
 This repo is based on [FPN](https://github.com/DetectionTeamUCAS/FPN_Tensorflow), and completed by [YangXue](https://github.com/yangxue0827) and [YangJirui](https://github.com/yangJirui).     
-=======
-## Note
-**A [development version](https://github.com/DetectionTeamUCAS/FPN_Tensorflow_DEV) based on FPN.**
-
-## Abstract
-This is a tensorflow re-implementation of [Feature Pyramid Networks for Object Detection](https://arxiv.org/abs/1612.03144).     
-
-This project is based on [Faster-RCNN](https://github.com/DetectionTeamUCAS/Faster-RCNN_Tensorflow), and completed by [YangXue](https://github.com/yangxue0827) and [YangJirui](https://github.com/yangJirui).     
->>>>>>> 4566b9b2c4ea726c3fc00aeee4cb41bb7c42b5d4
 
 ## Train on VOC 2007 trainval and test on VOC 2007 test (PS. This project also support coco training.)     
 ![1](fpn_voc_2007.gif)
@@ -30,13 +20,13 @@ This project is based on [Faster-RCNN](https://github.com/DetectionTeamUCAS/Fast
 |FPN_Res101_20181201(v1)|77.16|79.02|87.21|81.83|65.20|84.55|76.45|81.41|87.34|87.38|81.96|77.54|74.11|79.76|87.13|51.44|74.91|58.51|80.22|66.36|80.92|        
 |FPN_Res101_20181229(v2)|77.56|78.03|84.40|84.44|65.24|85.62|76.91|84.62|87.67|87.27|82.15|79.59|72.91|81.16|87.49|50.60|77.61|57.85|78.22|67.90|81.48|       
 |FPN_Res101_20181230(v3=v1+v2)|78.67|77.47|88.57|82.95|68.90|85.67|76.70|85.47|88.62|88.52|83.93|80.09|74.63|80.20|87.87|53.23|78.16|60.40|79.79|68.19|84.05|     
-|FPN_Res101_20190109(v4=v2-based)|78.36|76.59|88.42|81.42|69.53|84.15|78|85.92|87.25|88.14|82.61|81.65|72.11|88.38|87.35|50.14|76.91|56.95|80.07|66.39|85.18|
-|FPN_Res101_20190110(v5=v1+v2+v4)|79.2379.74|87.72|86.45|67.65|84.57|78.71|86.62|88.54|89.6|83.21|84.64|74.73|80.35|88.47|52.82|76.04|60.52|84.37|65.76|84.01|
+|FPN_Res101_20190109(v4=v2-based)|78.36|76.59|88.42|81.42|69.53|84.15|78|85.92|87.25|88.14|82.61|81.65|72.11|88.38|87.35|50.14|76.91|56.95|80.07|66.39|85.18|    
+|FPN_Res101_20190110(v5=v1+v2+v4)|79.23|79.74|87.72|86.45|67.65|84.57|78.71|86.62|88.54|89.6|83.21|84.64|74.73|80.35|88.47|52.82|76.04|60.52|84.37|65.76|84.01|        
 
 **+: SHARE_NET=False**    
 **++: SHORT_SIDE_LEN=800, FAST_RCNN_MINIBATCH_SIZE=512**         
 
-## My Development Environment
+## My Development Environment    
 1、python3.5 (anaconda recommend)             
 2、cuda9.0 **(If you want to use cuda8, please set CUDA9 = False in the cfgs.py file.)**                    
 3、[opencv(cv2)](https://pypi.org/project/opencv-python/)    
